@@ -3,7 +3,13 @@
 
 def main():
     """Função principal que será rodada quando o script for passado para o interpretador."""
-    # COLOQUE SEU CÓDIGO AQUI
+    import math
+    n=input('Digite um ano qualquer: ')
+    n=int(n)
+    if (n%4==0 and n%100!=0) or (n%400==0):
+      print(f'O ano {n} é bissexto.')
+    else:
+      print(f'O ano {n} não é bissexto.')
     # TODO
 
 
